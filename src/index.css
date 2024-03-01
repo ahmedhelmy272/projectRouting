@@ -1,0 +1,161 @@
+.navbar,
+footer {
+  background-color: #001c46;
+}
+.div-icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.div-icon:hover {
+  background-color: #194a6d;
+
+  cursor: pointer;
+}
+.footer-feet {
+  background-color: #03193b;
+}
+header,
+.about {
+  background-color: #006cb7;
+}
+.iconAfterBefore {
+  position: relative;
+}
+.iconAfterBefore::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  width: 21%;
+  height: 4px;
+  top: 48%;
+  left: 59%;
+}
+.iconAfterBefore::before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  width: 21%;
+  height: 4px;
+  top: 48%;
+  right: 59%;
+}
+
+.iconAfterBefore-about {
+  position: relative;
+}
+.iconAfterBefore-about::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  width: 7%;
+  height: 4px;
+  top: 48%;
+  right: 53%;
+}
+.iconAfterBefore-about::before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  width: 7%;
+  height: 4px;
+  top: 48%;
+  left: 53%;
+}
+.iconAfterBefore-portfolio {
+  position: relative;
+}
+.iconAfterBefore-portfolio::before {
+  content: "";
+  position: absolute;
+  background-color: #2c3e50;
+  width: 7%;
+  height: 4px;
+  top: 48%;
+  left: 53%;
+}
+.iconAfterBefore-portfolio::after {
+  content: "";
+  position: absolute;
+  background-color: #2c3e50;
+  width: 7%;
+  height: 4px;
+  top: 48%;
+  right: 53%;
+}
+
+.div-1 {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  padding-top: 180px;
+  padding-bottom: 0px;
+}
+.text-h2 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+.portfolio-item {
+  position: relative;
+}
+
+.fa-plus {
+  font-size: 100px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.plus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #006cb7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.portfolio-item:hover .plus {
+  opacity: 0.7;
+}
+
+.send {
+  background-color: #001c46;
+}
+.send:hover {
+  background-color: #006cb7;
+}
+
+.active-link {
+  background-color: black;
+  padding: 10px ;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: white;
+  background-color: #006CB7;
+  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
+}
